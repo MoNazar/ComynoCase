@@ -24,5 +24,5 @@ loanedBooks.php -> Delivers the content of already loaned books.
 -----------------------------------------------------------------------------------------------------
 
 See sqltables.txt for the implementation of the tables in the affected Database. 
-Project1.png and Project1.2.png shows the Entity Relation Modell . This is how the Database is built
+Project1.png and Project1.2.png shows the Entity Relation Modell . This is how the Database is built.
 
