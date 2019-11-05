@@ -1,0 +1,33 @@
+Create Table Student
+(
+Student_id INT PRIMARY KEY, 
+Student_Name VARCHAR(255)
+);
+
+Create Table Book
+(
+Book_id INT PRIMARY KEY,
+Book_Name VARCHAR(255),
+Student_id INT,
+
+);
+
+Creat TABLE loan
+(
+Student_id INT,
+Book_id INT,
+Book_Name VARCHAR(255),
+PRIMARY KEY (Book_id), 
+FOREIGN KEY (Student_id)
+        REFERENCES Student (Student_id)
+FOREIGN KEY (Book_Name)
+        REFERENCES Book (Book_Name)
+);
+
+Create TABLE loan
+(
+Student_id INT,
+Book_id INT,
+PRIMARY KEY (Book_id),
+FOREIGN KEY (Student_id) REFERENCES Student(Student_id),
+);
